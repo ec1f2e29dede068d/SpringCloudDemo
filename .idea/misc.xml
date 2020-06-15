@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Kotlin2JsCompilerArguments">
+    <option name="sourceMapEmbedSources" />
+    <option name="sourceMapPrefix" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaColony/02target/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaColony/target/pom.xml" />
+        <option value="$PROJECT_DIR$/02_EurekaColony/provider/pom.xml" />
+        <option value="$PROJECT_DIR$/02_EurekaColony/invoker/pom.xml" />
+        <option value="$PROJECT_DIR$/02_SelfHealthCheck/server/pom.xml" />
+        <option value="$PROJECT_DIR$/02_SelfHealthCheck/provider/pom.xml" />
+        <option value="$PROJECT_DIR$/03_LoadBalance/server/pom.xml" />
+        <option value="$PROJECT_DIR$/03_LoadBalance/client/pom.xml" />
+        <option value="$PROJECT_DIR$/04_LoadBalance/server/pom.xml" />
+        <option value="$PROJECT_DIR$/04_LoadBalance/provider/pom.xml" />
+        <option value="$PROJECT_DIR$/04_LoadBalance/invoker/pom.xml" />
+        <option value="$PROJECT_DIR$/04_LoadBalance/annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/05_RESTAndFeign/05_rest_server/pom.xml" />
+        <option value="$PROJECT_DIR$/06_FeignOnEureka/06_FeignOnEurekaTarget/pom.xml" />
+        <option value="$PROJECT_DIR$/06_FeignOnEureka/06_EurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/11_Zuul2/11_Eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/11_Zuul2/11_Zuul1/pom.xml" />
+        <option value="$PROJECT_DIR$/11_Zuul2/11_Zuul2/pom.xml" />
+        <option value="$PROJECT_DIR$/11_Zuul2/Service1/pom.xml" />
+        <option value="$PROJECT_DIR$/11_Zuul2/Service2/pom.xml" />
+        <option value="$PROJECT_DIR$/11_Zuul2/11_Zuul3/pom.xml" />
+        <option value="$PROJECT_DIR$/11_Zuul2/11_Service1/pom.xml" />
+        <option value="$PROJECT_DIR$/11_Zuul2/11_Service2/pom.xml" />
+        <option value="$PROJECT_DIR$/10_Zuul/10_Zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/10_Zuul/10_Eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/10_Zuul/10_Service1/pom.xml" />
+        <option value="$PROJECT_DIR$/11_Zuul2/11_Feign/pom.xml" />
+        <option value="$PROJECT_DIR$/11_Zuul2/11_Service/pom.xml" />
+        <option value="$PROJECT_DIR$/10_Zuul/10_Service2/pom.xml" />
+        <option value="$PROJECT_DIR$/10_Zuul/10_Invoker1/pom.xml" />
+        <option value="$PROJECT_DIR$/10_Zuul/10_Invoker2/pom.xml" />
+        <option value="$PROJECT_DIR$/12_RabbitMQ/12_Producer/pom.xml" />
+        <option value="$PROJECT_DIR$/12_RabbitMQ/12_Eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/12_RabbitMQ/12_Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/12_RabbitMQ/12_Consumer2/pom.xml" />
+        <option value="$PROJECT_DIR$/12_RabbitMQ/12_Consumer3/pom.xml" />
+        <option value="$PROJECT_DIR$/13_Comprehensive/13_DB/pom.xml" />
+        <option value="$PROJECT_DIR$/13_Comprehensive/13_Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/13_Comprehensive/13_Consumer2/pom.xml" />
+        <option value="$PROJECT_DIR$/13_Comprehensive/13_Consumer3/pom.xml" />
+        <option value="$PROJECT_DIR$/13_Comprehensive/13_Eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/13_Comprehensive/13_Producer/pom.xml" />
+        <option value="$PROJECT_DIR$/13_Comprehensive/13_Zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/09_HystrixOnEureka/09_Invoker1/pom.xml" />
+        <option value="$PROJECT_DIR$/09_HystrixOnEureka/09_Invoker2/pom.xml" />
+        <option value="$PROJECT_DIR$/09_HystrixOnEureka/09_Provider1/pom.xml" />
+        <option value="$PROJECT_DIR$/09_HystrixOnEureka/09_Provider2/pom.xml" />
+        <option value="$PROJECT_DIR$/14_Comprehensive/14_Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/14_Comprehensive/14_Consumer2/pom.xml" />
+        <option value="$PROJECT_DIR$/14_Comprehensive/14_Consumer3/pom.xml" />
+        <option value="$PROJECT_DIR$/14_Comprehensive/14_DB/pom.xml" />
+        <option value="$PROJECT_DIR$/14_Comprehensive/14_Eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/14_Comprehensive/14_Producer/pom.xml" />
+        <option value="$PROJECT_DIR$/14_Comprehensive/14_Zuul/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/02_EurekaColony/pom.xml" />
+        <option value="$PROJECT_DIR$/02_SelfHealthCheck/pom.xml" />
+        <option value="$PROJECT_DIR$/03_LoadBalance/pom.xml" />
+        <option value="$PROJECT_DIR$/04_LoadBalance/pom.xml" />
+        <option value="$PROJECT_DIR$/05_RESTAndFeign/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaColony/02target/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

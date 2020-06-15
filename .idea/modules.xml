@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_SimpleApplication/01_Invoker/01_Invoker.iml" filepath="$PROJECT_DIR$/01_SimpleApplication/01_Invoker/01_Invoker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_SimpleApplication/01_Provider/01_Provider.iml" filepath="$PROJECT_DIR$/01_SimpleApplication/01_Provider/01_Provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_SimpleApplication/01_Target/01_Target.iml" filepath="$PROJECT_DIR$/01_SimpleApplication/01_Target/01_Target.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Client/02_1_Client.iml" filepath="$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Client/02_1_Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Invoker/02_1_Invoker.iml" filepath="$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Invoker/02_1_Invoker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Provider/02_1_Provider.iml" filepath="$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Provider/02_1_Provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Target/02_1_Target.iml" filepath="$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Target/02_1_Target.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_EurekaColony/SelfHealthCheck/02_2_Provider/02_2_Provider.iml" filepath="$PROJECT_DIR$/02_EurekaColony/SelfHealthCheck/02_2_Provider/02_2_Provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_EurekaColony/SelfHealthCheck/02_2_Server/02_2_Server.iml" filepath="$PROJECT_DIR$/02_EurekaColony/SelfHealthCheck/02_2_Server/02_2_Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_LoadBalance/03_Client/03_Client.iml" filepath="$PROJECT_DIR$/03_LoadBalance/03_Client/03_Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_LoadBalance/03_Provider/03_Provider.iml" filepath="$PROJECT_DIR$/03_LoadBalance/03_Provider/03_Provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_LoadBalance/04_Annotation/04_Annotation.iml" filepath="$PROJECT_DIR$/04_LoadBalance/04_Annotation/04_Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_LoadBalance/04_Invoker/04_Invoker.iml" filepath="$PROJECT_DIR$/04_LoadBalance/04_Invoker/04_Invoker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_LoadBalance/04_Provider/04_Provider.iml" filepath="$PROJECT_DIR$/04_LoadBalance/04_Provider/04_Provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_LoadBalance/04_Server/04_Server.iml" filepath="$PROJECT_DIR$/04_LoadBalance/04_Server/04_Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_RESTAndFeign/05_feign_client/05_feign_client.iml" filepath="$PROJECT_DIR$/05_RESTAndFeign/05_feign_client/05_feign_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_FeignOnEureka/06_Eureka/06_Eureka.iml" filepath="$PROJECT_DIR$/06_FeignOnEureka/06_Eureka/06_Eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_HystrixOnEureka/09_Invoker1/09_invoker1.iml" filepath="$PROJECT_DIR$/09_HystrixOnEureka/09_Invoker1/09_invoker1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_HystrixOnEureka/09_Invoker2/09_invoker2.iml" filepath="$PROJECT_DIR$/09_HystrixOnEureka/09_Invoker2/09_invoker2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_HystrixOnEureka/09_Provider1/09_provider1.iml" filepath="$PROJECT_DIR$/09_HystrixOnEureka/09_Provider1/09_provider1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_HystrixOnEureka/09_Provider2/09_provider2.iml" filepath="$PROJECT_DIR$/09_HystrixOnEureka/09_Provider2/09_provider2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_Zuul/10_Eureka/10_eureka.iml" filepath="$PROJECT_DIR$/10_Zuul/10_Eureka/10_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_Zuul/10_Invoker1/10_invoker1.iml" filepath="$PROJECT_DIR$/10_Zuul/10_Invoker1/10_invoker1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_Zuul/10_Invoker2/10_invoker2.iml" filepath="$PROJECT_DIR$/10_Zuul/10_Invoker2/10_invoker2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_Zuul/10_Service1/10_service1.iml" filepath="$PROJECT_DIR$/10_Zuul/10_Service1/10_service1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_Zuul/10_Service2/10_service2.iml" filepath="$PROJECT_DIR$/10_Zuul/10_Service2/10_service2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_Zuul/10_Zuul/10_zuul.iml" filepath="$PROJECT_DIR$/10_Zuul/10_Zuul/10_zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_Zuul2/11_Eureka/11_Eureka.iml" filepath="$PROJECT_DIR$/11_Zuul2/11_Eureka/11_Eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_Zuul2/11_Feign/11_Feign.iml" filepath="$PROJECT_DIR$/11_Zuul2/11_Feign/11_Feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_Zuul2/11_Service/11_Service.iml" filepath="$PROJECT_DIR$/11_Zuul2/11_Service/11_Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_Zuul2/11_Zuul1/11_Zuul1.iml" filepath="$PROJECT_DIR$/11_Zuul2/11_Zuul1/11_Zuul1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_Zuul2/11_Zuul2/11_Zuul2.iml" filepath="$PROJECT_DIR$/11_Zuul2/11_Zuul2/11_Zuul2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_Zuul2/11_Zuul3/11_Zuul3.iml" filepath="$PROJECT_DIR$/11_Zuul2/11_Zuul3/11_Zuul3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_RabbitMQ/12_Consumer/12_Consumer.iml" filepath="$PROJECT_DIR$/12_RabbitMQ/12_Consumer/12_Consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_RabbitMQ/12_Consumer2/12_Consumer2.iml" filepath="$PROJECT_DIR$/12_RabbitMQ/12_Consumer2/12_Consumer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_RabbitMQ/12_Consumer3/12_Consumer3.iml" filepath="$PROJECT_DIR$/12_RabbitMQ/12_Consumer3/12_Consumer3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_RabbitMQ/12_Eureka/12_Eureka.iml" filepath="$PROJECT_DIR$/12_RabbitMQ/12_Eureka/12_Eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_RabbitMQ/12_Producer/12_Producer.iml" filepath="$PROJECT_DIR$/12_RabbitMQ/12_Producer/12_Producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Comprehensive/13_Consumer/13_Consumer.iml" filepath="$PROJECT_DIR$/13_Comprehensive/13_Consumer/13_Consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Comprehensive/13_Consumer2/13_Consumer2.iml" filepath="$PROJECT_DIR$/13_Comprehensive/13_Consumer2/13_Consumer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Comprehensive/13_Consumer3/13_Consumer3.iml" filepath="$PROJECT_DIR$/13_Comprehensive/13_Consumer3/13_Consumer3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Comprehensive/13_DB/13_DB.iml" filepath="$PROJECT_DIR$/13_Comprehensive/13_DB/13_DB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Comprehensive/13_Eureka/13_Eureka.iml" filepath="$PROJECT_DIR$/13_Comprehensive/13_Eureka/13_Eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Comprehensive/13_Producer/13_Producer.iml" filepath="$PROJECT_DIR$/13_Comprehensive/13_Producer/13_Producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Comprehensive/13_Zuul/13_zuul.iml" filepath="$PROJECT_DIR$/13_Comprehensive/13_Zuul/13_zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_Comprehensive/14_Consumer/14_Consumer.iml" filepath="$PROJECT_DIR$/14_Comprehensive/14_Consumer/14_Consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_Comprehensive/14_Consumer2/14_Consumer2.iml" filepath="$PROJECT_DIR$/14_Comprehensive/14_Consumer2/14_Consumer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_Comprehensive/14_Consumer3/14_Consumer3.iml" filepath="$PROJECT_DIR$/14_Comprehensive/14_Consumer3/14_Consumer3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_Comprehensive/14_DB/14_DB.iml" filepath="$PROJECT_DIR$/14_Comprehensive/14_DB/14_DB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_Comprehensive/14_Eureka/14_Eureka.iml" filepath="$PROJECT_DIR$/14_Comprehensive/14_Eureka/14_Eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_Comprehensive/14_Producer/14_Producer.iml" filepath="$PROJECT_DIR$/14_Comprehensive/14_Producer/14_Producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_Comprehensive/14_Zuul/14_zuul.iml" filepath="$PROJECT_DIR$/14_Comprehensive/14_Zuul/14_zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo.iml" filepath="$PROJECT_DIR$/SpringCloudDemo.iml" />
+    </modules>
+  </component>
+</project>

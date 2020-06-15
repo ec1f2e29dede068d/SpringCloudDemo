@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="14_Consumer3" />
+        <module name="13_Consumer" />
+        <module name="14_zuul" />
+        <module name="14_DB" />
+        <module name="09_provider2" />
+        <module name="09_provider1" />
+        <module name="14_Consumer" />
+        <module name="10_invoker2" />
+        <module name="self_health_check_provider" />
+        <module name="13_Consumer3" />
+        <module name="06_FeignOnEurekaTarget" />
+        <module name="11_Feign" />
+        <module name="04_LoadBalanceServer" />
+        <module name="10_invoker1" />
+        <module name="04_Provider" />
+        <module name="14_Producer" />
+        <module name="12_Producer" />
+        <module name="04_LoadBalanceProvider" />
+        <module name="06_EurekaServer" />
+        <module name="13_Consumer2" />
+        <module name="14_Eureka" />
+        <module name="05_feign_client" />
+        <module name="13_zuul" />
+        <module name="06_Eureka" />
+        <module name="13_Producer" />
+        <module name="load_balance_server" />
+        <module name="05_rest_server" />
+        <module name="provider" />
+        <module name="11_Zuul2" />
+        <module name="12_Eureka" />
+        <module name="target" />
+        <module name="11_Eureka" />
+        <module name="11_Service" />
+        <module name="self_health_check_server" />
+        <module name="04_LoadBalanceInvoker" />
+        <module name="10_service2" />
+        <module name="eureka_colony_invoker" />
+        <module name="11_Zuul3" />
+        <module name="eureka_colony_target" />
+        <module name="eureka_colony_client" />
+        <module name="12_Consumer" />
+        <module name="eureka_colony_provider" />
+        <module name="invoker" />
+        <module name="load_balance_client" />
+        <module name="14_Consumer2" />
+        <module name="12_Consumer3" />
+        <module name="EurekaColony" />
+        <module name="12_Consumer2" />
+        <module name="10_zuul" />
+        <module name="13_DB" />
+        <module name="10_service1" />
+        <module name="10_eureka" />
+        <module name="annotation" />
+        <module name="13_Eureka" />
+        <module name="09_invoker1" />
+        <module name="09_invoker2" />
+        <module name="11_Zuul1" />
+      </profile>
+      <profile name="Annotation profile for load_balance_server" enabled="true">
+        <sourceOutputDir name="../server/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../server/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="03_LoadBalanceProvider" />
+      </profile>
+      <profile name="Annotation profile for load_balance_client" enabled="true">
+        <sourceOutputDir name="../client/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../client/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="03_LoadBalanceClient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="02_EurekaColony" target="1.7" />
+      <module name="02_SelfHealthCheck" target="1.7" />
+      <module name="02target" target="1.8" />
+      <module name="03_LoadBalance" target="1.7" />
+      <module name="03_LoadBalanceClient" target="1.8" />
+      <module name="03_LoadBalanceProvider" target="1.8" />
+      <module name="04_LoadBalance" target="1.7" />
+      <module name="04_LoadBalanceInvoker" target="1.8" />
+      <module name="04_LoadBalanceProvider" target="1.8" />
+      <module name="04_LoadBalanceServer" target="1.8" />
+      <module name="04_Provider" target="1.8" />
+      <module name="05_feign_client" target="1.8" />
+      <module name="05_feign_server" target="1.8" />
+      <module name="05_rest_server" target="1.8" />
+      <module name="05_RESTAndFeign" target="1.7" />
+      <module name="06_Eureka" target="1.8" />
+      <module name="06_EurekaServer" target="1.8" />
+      <module name="06_FeignClient" target="1.8" />
+      <module name="06_FeignOnEurekaTarget" target="1.8" />
+      <module name="06_Provider" target="1.8" />
+      <module name="07_Client" target="1.5" />
+      <module name="07_Provider" target="1.8" />
+      <module name="08_Client" target="1.5" />
+      <module name="09_Eureka" target="1.8" />
+      <module name="09_Invoker1" target="1.8" />
+      <module name="09_invoker1" target="1.8" />
+      <module name="09_Invoker2" target="1.8" />
+      <module name="09_invoker2" target="1.8" />
+      <module name="09_Provider1" target="1.8" />
+      <module name="09_provider1" target="1.8" />
+      <module name="09_Provider2" target="1.8" />
+      <module name="09_provider2" target="1.8" />
+      <module name="10_Eureka" target="1.8" />
+      <module name="10_eureka" target="1.8" />
+      <module name="10_Invoker1" target="1.8" />
+      <module name="10_invoker1" target="1.8" />
+      <module name="10_Invoker2" target="1.8" />
+      <module name="10_invoker2" target="1.8" />
+      <module name="10_service1" target="1.8" />
+      <module name="10_Service1" target="1.8" />
+      <module name="10_service2" target="1.8" />
+      <module name="10_Service2" target="1.8" />
+      <module name="10_Zuul" target="1.8" />
+      <module name="10_zuul" target="1.8" />
+      <module name="11_Eureka" target="1.8" />
+      <module name="11_Feign" target="1.8" />
+      <module name="11_Service" target="1.8" />
+      <module name="11_Zuul1" target="1.8" />
+      <module name="11_Zuul2" target="1.8" />
+      <module name="11_Zuul3" target="1.8" />
+      <module name="12_Consumer" target="1.8" />
+      <module name="12_Consumer2" target="1.8" />
+      <module name="12_Consumer3" target="1.8" />
+      <module name="12_Eureka" target="1.8" />
+      <module name="12_Producer" target="1.8" />
+      <module name="13_consumer" target="1.8" />
+      <module name="13_Consumer" target="1.8" />
+      <module name="13_Consumer2" target="1.8" />
+      <module name="13_Consumer3" target="1.8" />
+      <module name="13_DB" target="1.8" />
+      <module name="13_Eureka" target="1.8" />
+      <module name="13_Producer" target="1.8" />
+      <module name="13_zuul" target="1.8" />
+      <module name="14_Consumer" target="1.8" />
+      <module name="14_Consumer2" target="1.8" />
+      <module name="14_Consumer3" target="1.8" />
+      <module name="14_DB" target="1.8" />
+      <module name="14_Eureka" target="1.8" />
+      <module name="14_Producer" target="1.8" />
+      <module name="14_zuul" target="1.8" />
+      <module name="annotation" target="1.8" />
+      <module name="eureka_colony_client" target="1.7" />
+      <module name="eureka_colony_invoker" target="1.8" />
+      <module name="eureka_colony_provider" target="1.8" />
+      <module name="eureka_colony_target" target="1.8" />
+      <module name="EurekaColony" target="1.7" />
+      <module name="invoker" target="1.8" />
+      <module name="load_balance_client" target="1.8" />
+      <module name="load_balance_server" target="1.8" />
+      <module name="provider" target="1.8" />
+      <module name="self_health_check_provider" target="1.8" />
+      <module name="self_health_check_server" target="1.8" />
+      <module name="SpringCloudDemo" target="1.7" />
+      <module name="target" target="1.8" />
+      <module name="target (1)" target="1.8" />
+      <module name="test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="05_feign_server" options="-parameters" />
+      <module name="06_FeignClient" options="-parameters" />
+      <module name="06_Provider" options="-parameters" />
+      <module name="07_Provider" options="-parameters" />
+      <module name="09_Eureka" options="-parameters" />
+      <module name="09_Invoker1" options="-parameters" />
+      <module name="09_Invoker2" options="-parameters" />
+      <module name="09_Provider1" options="-parameters" />
+      <module name="09_Provider2" options="-parameters" />
+      <module name="09_invoker1" options="-parameters" />
+      <module name="09_invoker2" options="-parameters" />
+      <module name="09_provider1" options="-parameters" />
+      <module name="09_provider2" options="-parameters" />
+      <module name="10_Eureka" options="-parameters" />
+      <module name="10_Invoker1" options="-parameters" />
+      <module name="10_Invoker2" options="-parameters" />
+      <module name="10_Service1" options="-parameters" />
+      <module name="10_Service2" options="-parameters" />
+      <module name="10_Zuul" options="-parameters" />
+      <module name="10_eureka" options="-parameters" />
+      <module name="10_invoker1" options="-parameters" />
+      <module name="10_invoker2" options="-parameters" />
+      <module name="10_service1" options="-parameters" />
+      <module name="10_service2" options="-parameters" />
+      <module name="10_zuul" options="-parameters" />
+      <module name="11_Eureka" options="-parameters" />
+      <module name="11_Feign" options="-parameters" />
+      <module name="11_Service" options="-parameters" />
+      <module name="11_Zuul1" options="-parameters" />
+      <module name="11_Zuul2" options="-parameters" />
+      <module name="11_Zuul3" options="-parameters" />
+      <module name="12_Consumer" options="-parameters" />
+      <module name="12_Consumer2" options="-parameters" />
+      <module name="12_Consumer3" options="-parameters" />
+      <module name="12_Eureka" options="-parameters" />
+      <module name="12_Producer" options="-parameters" />
+      <module name="13_Consumer" options="-parameters" />
+      <module name="13_Consumer2" options="-parameters" />
+      <module name="13_Consumer3" options="-parameters" />
+      <module name="13_DB" options="-parameters" />
+      <module name="13_Eureka" options="-parameters" />
+      <module name="13_Producer" options="-parameters" />
+      <module name="13_zuul" options="-parameters" />
+      <module name="14_Consumer" options="-parameters" />
+      <module name="14_Consumer2" options="-parameters" />
+      <module name="14_Consumer3" options="-parameters" />
+      <module name="14_DB" options="-parameters" />
+      <module name="14_Eureka" options="-parameters" />
+      <module name="14_Producer" options="-parameters" />
+      <module name="14_zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
