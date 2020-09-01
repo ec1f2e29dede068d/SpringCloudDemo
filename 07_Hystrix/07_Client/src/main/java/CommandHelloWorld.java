@@ -6,6 +6,9 @@ import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
+/**
+ * @author C
+ */
 public class CommandHelloWorld extends HystrixCommand<String> {
 
     private String name;
@@ -16,18 +19,21 @@ public class CommandHelloWorld extends HystrixCommand<String> {
         this.name = name;
     }
 
+    @Override
     protected String run() {
         return "Hello " + this.name + "! thread:" + Thread.currentThread().getName();
     }
 
     public static void main(String[] args) {
+        //同步执行，阻塞
         CommandHelloWorld commandHelloWorld = new CommandHelloWorld("Synchronous-hystrix");
         String string = commandHelloWorld.execute();
         System.out.println(" 同步====== " + string);
-
+        //异步执行，非阻塞
         commandHelloWorld = new CommandHelloWorld("Asynchronous-hystrix");
         Future<String> future = commandHelloWorld.queue();
         try {
+            //future.get()方法如果没有重写fallback方法会报出异常
             string = future.get(100, TimeUnit.MILLISECONDS);
         } catch (InterruptedException e) {
             e.printStackTrace();

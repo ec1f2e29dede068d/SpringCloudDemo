@@ -4,6 +4,9 @@ import com.netflix.hystrix.HystrixCommandGroupKey;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * @author C
+ */
 public class FallbackTest01 extends HystrixCommand<String> {
 
     private Integer id;
@@ -13,6 +16,7 @@ public class FallbackTest01 extends HystrixCommand<String> {
         this.id = id;
     }
 
+    @Override
     protected String run() {
         if (id % 2 == 0 && id <= 10) {
             return "running run(): " + this.id + "\n";
@@ -35,7 +39,8 @@ public class FallbackTest01 extends HystrixCommand<String> {
     }
 
     public static void main(String[] args) {
-        for (int i = 0; i < 12; i++) {
+        int loopNum = 12;
+        for (int i = 0; i < loopNum; i++) {
             System.out.print(new FallbackTest01(i).execute());
         }
         ConfigurationManager.getConfigInstance().setProperty("hystrix.command.default.circuitBreaker.forceOpen",

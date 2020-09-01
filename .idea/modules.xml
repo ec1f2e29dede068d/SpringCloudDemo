@@ -5,20 +5,26 @@
       <module fileurl="file://$PROJECT_DIR$/01_SimpleApplication/01_Invoker/01_Invoker.iml" filepath="$PROJECT_DIR$/01_SimpleApplication/01_Invoker/01_Invoker.iml" />
       <module fileurl="file://$PROJECT_DIR$/01_SimpleApplication/01_Provider/01_Provider.iml" filepath="$PROJECT_DIR$/01_SimpleApplication/01_Provider/01_Provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/01_SimpleApplication/01_Target/01_Target.iml" filepath="$PROJECT_DIR$/01_SimpleApplication/01_Target/01_Target.iml" />
-      <module fileurl="file://$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Client/02_1_Client.iml" filepath="$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Client/02_1_Client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Invoker/02_1_Invoker.iml" filepath="$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Invoker/02_1_Invoker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Provider/02_1_Provider.iml" filepath="$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Provider/02_1_Provider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Target/02_1_Target.iml" filepath="$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Target/02_1_Target.iml" />
-      <module fileurl="file://$PROJECT_DIR$/02_EurekaColony/SelfHealthCheck/02_2_Provider/02_2_Provider.iml" filepath="$PROJECT_DIR$/02_EurekaColony/SelfHealthCheck/02_2_Provider/02_2_Provider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/02_EurekaColony/SelfHealthCheck/02_2_Server/02_2_Server.iml" filepath="$PROJECT_DIR$/02_EurekaColony/SelfHealthCheck/02_2_Server/02_2_Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_EurekaCluster/EurekaCluster/02_1_Client/02_1_Client.iml" filepath="$PROJECT_DIR$/02_EurekaCluster/EurekaCluster/02_1_Client/02_1_Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_EurekaCluster/EurekaCluster/02_1_Invoker/02_1_Invoker.iml" filepath="$PROJECT_DIR$/02_EurekaCluster/EurekaCluster/02_1_Invoker/02_1_Invoker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_EurekaCluster/EurekaCluster/02_1_Provider/02_1_Provider.iml" filepath="$PROJECT_DIR$/02_EurekaCluster/EurekaCluster/02_1_Provider/02_1_Provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_EurekaCluster/EurekaCluster/02_1_Target/02_1_Target.iml" filepath="$PROJECT_DIR$/02_EurekaCluster/EurekaCluster/02_1_Target/02_1_Target.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_EurekaCluster/SelfHealthCheck/02_2_Provider/02_2_Provider.iml" filepath="$PROJECT_DIR$/02_EurekaCluster/SelfHealthCheck/02_2_Provider/02_2_Provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_EurekaCluster/SelfHealthCheck/02_2_Server/02_2_Server.iml" filepath="$PROJECT_DIR$/02_EurekaCluster/SelfHealthCheck/02_2_Server/02_2_Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_LoadBalance/03_Client/03_Client.iml" filepath="$PROJECT_DIR$/03_LoadBalance/03_Client/03_Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_LoadBalance/03_Provider/03_Provider.iml" filepath="$PROJECT_DIR$/03_LoadBalance/03_Provider/03_Provider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/04_LoadBalance/04_Annotation/04_Annotation.iml" filepath="$PROJECT_DIR$/04_LoadBalance/04_Annotation/04_Annotation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/04_LoadBalance/04_Invoker/04_Invoker.iml" filepath="$PROJECT_DIR$/04_LoadBalance/04_Invoker/04_Invoker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/04_LoadBalance/04_Provider/04_Provider.iml" filepath="$PROJECT_DIR$/04_LoadBalance/04_Provider/04_Provider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/04_LoadBalance/04_Server/04_Server.iml" filepath="$PROJECT_DIR$/04_LoadBalance/04_Server/04_Server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/05_RESTAndFeign/05_feign_client/05_feign_client.iml" filepath="$PROJECT_DIR$/05_RESTAndFeign/05_feign_client/05_feign_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_LoadBalanceOnEureka/04_Annotation/04_Annotation.iml" filepath="$PROJECT_DIR$/04_LoadBalanceOnEureka/04_Annotation/04_Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_LoadBalanceOnEureka/04_Invoker/04_Invoker.iml" filepath="$PROJECT_DIR$/04_LoadBalanceOnEureka/04_Invoker/04_Invoker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_LoadBalanceOnEureka/04_Provider/04_Provider.iml" filepath="$PROJECT_DIR$/04_LoadBalanceOnEureka/04_Provider/04_Provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_LoadBalanceOnEureka/04_Server/04_Server.iml" filepath="$PROJECT_DIR$/04_LoadBalanceOnEureka/04_Server/04_Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_RESTAndFeign/05_Client/05_Client.iml" filepath="$PROJECT_DIR$/05_RESTAndFeign/05_Client/05_Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_RESTAndFeign/05_Server/05_Server.iml" filepath="$PROJECT_DIR$/05_RESTAndFeign/05_Server/05_Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/06_FeignOnEureka/06_Eureka/06_Eureka.iml" filepath="$PROJECT_DIR$/06_FeignOnEureka/06_Eureka/06_Eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_FeignOnEureka/06_FeignClient/06_FeignClient.iml" filepath="$PROJECT_DIR$/06_FeignOnEureka/06_FeignClient/06_FeignClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_FeignOnEureka/06_Provider/06_Provider.iml" filepath="$PROJECT_DIR$/06_FeignOnEureka/06_Provider/06_Provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_Hystrix/07_Client/07_Client.iml" filepath="$PROJECT_DIR$/07_Hystrix/07_Client/07_Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_HystrixProtect/08_Client/08_Client.iml" filepath="$PROJECT_DIR$/08_HystrixProtect/08_Client/08_Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_HystrixOnEureka/09_Eureka/09_eureka.iml" filepath="$PROJECT_DIR$/09_HystrixOnEureka/09_Eureka/09_eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/09_HystrixOnEureka/09_Invoker1/09_invoker1.iml" filepath="$PROJECT_DIR$/09_HystrixOnEureka/09_Invoker1/09_invoker1.iml" />
       <module fileurl="file://$PROJECT_DIR$/09_HystrixOnEureka/09_Invoker2/09_invoker2.iml" filepath="$PROJECT_DIR$/09_HystrixOnEureka/09_Invoker2/09_invoker2.iml" />
       <module fileurl="file://$PROJECT_DIR$/09_HystrixOnEureka/09_Provider1/09_provider1.iml" filepath="$PROJECT_DIR$/09_HystrixOnEureka/09_Provider1/09_provider1.iml" />

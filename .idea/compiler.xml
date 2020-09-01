@@ -6,63 +6,69 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="14_Consumer3" />
-        <module name="13_Consumer" />
+        <module name="06_EurekaServer" />
+        <module name="14_Producer" />
+        <module name="12_Eureka" />
+        <module name="06_FeignClient" />
+        <module name="09_eureka" />
+        <module name="annotation" />
+        <module name="10_zuul" />
+        <module name="self_health_check_provider" />
+        <module name="05_rest_server" />
+        <module name="eureka_colony_invoker" />
+        <module name="06_FeignOnEurekaTarget" />
+        <module name="11_Eureka" />
+        <module name="12_Consumer3" />
+        <module name="12_Consumer2" />
+        <module name="13_zuul" />
         <module name="14_zuul" />
+        <module name="12_Consumer" />
+        <module name="invoker" />
+        <module name="07_Client" />
+        <module name="load_balance_client" />
+        <module name="13_Consumer3" />
+        <module name="EurekaColony" />
+        <module name="09_invoker2" />
+        <module name="09_invoker1" />
+        <module name="04_LoadBalanceProvider" />
+        <module name="13_Eureka" />
+        <module name="10_eureka" />
+        <module name="05_Server" />
+        <module name="04_Provider" />
+        <module name="14_Consumer3" />
+        <module name="14_Consumer2" />
+        <module name="eureka_colony_target" />
+        <module name="05_Client" />
+        <module name="06_Provider" />
+        <module name="13_Consumer" />
+        <module name="04_LoadBalanceServer" />
+        <module name="08_Client" />
+        <module name="13_DB" />
+        <module name="12_Producer" />
+        <module name="13_Producer" />
+        <module name="13_Consumer2" />
+        <module name="11_Service" />
+        <module name="load_balance_server" />
+        <module name="eureka_colony_provider" />
+        <module name="provider" />
+        <module name="14_Eureka" />
+        <module name="self_health_check_server" />
         <module name="14_DB" />
+        <module name="06_Eureka" />
+        <module name="11_Zuul3" />
+        <module name="11_Zuul2" />
+        <module name="11_Zuul1" />
+        <module name="04_LoadBalanceInvoker" />
+        <module name="eureka_colony_client" />
+        <module name="10_invoker2" />
+        <module name="10_invoker1" />
         <module name="09_provider2" />
         <module name="09_provider1" />
-        <module name="14_Consumer" />
-        <module name="10_invoker2" />
-        <module name="self_health_check_provider" />
-        <module name="13_Consumer3" />
-        <module name="06_FeignOnEurekaTarget" />
         <module name="11_Feign" />
-        <module name="04_LoadBalanceServer" />
-        <module name="10_invoker1" />
-        <module name="04_Provider" />
-        <module name="14_Producer" />
-        <module name="12_Producer" />
-        <module name="04_LoadBalanceProvider" />
-        <module name="06_EurekaServer" />
-        <module name="13_Consumer2" />
-        <module name="14_Eureka" />
-        <module name="05_feign_client" />
-        <module name="13_zuul" />
-        <module name="06_Eureka" />
-        <module name="13_Producer" />
-        <module name="load_balance_server" />
-        <module name="05_rest_server" />
-        <module name="provider" />
-        <module name="11_Zuul2" />
-        <module name="12_Eureka" />
-        <module name="target" />
-        <module name="11_Eureka" />
-        <module name="11_Service" />
-        <module name="self_health_check_server" />
-        <module name="04_LoadBalanceInvoker" />
+        <module name="14_Consumer" />
         <module name="10_service2" />
-        <module name="eureka_colony_invoker" />
-        <module name="11_Zuul3" />
-        <module name="eureka_colony_target" />
-        <module name="eureka_colony_client" />
-        <module name="12_Consumer" />
-        <module name="eureka_colony_provider" />
-        <module name="invoker" />
-        <module name="load_balance_client" />
-        <module name="14_Consumer2" />
-        <module name="12_Consumer3" />
-        <module name="EurekaColony" />
-        <module name="12_Consumer2" />
-        <module name="10_zuul" />
-        <module name="13_DB" />
         <module name="10_service1" />
-        <module name="10_eureka" />
-        <module name="annotation" />
-        <module name="13_Eureka" />
-        <module name="09_invoker1" />
-        <module name="09_invoker2" />
-        <module name="11_Zuul1" />
+        <module name="target" />
       </profile>
       <profile name="Annotation profile for load_balance_server" enabled="true">
         <sourceOutputDir name="../server/target/generated-sources/annotations" />
@@ -89,18 +95,20 @@
       <module name="04_LoadBalanceProvider" target="1.8" />
       <module name="04_LoadBalanceServer" target="1.8" />
       <module name="04_Provider" target="1.8" />
-      <module name="05_feign_client" target="1.8" />
-      <module name="05_feign_server" target="1.8" />
+      <module name="05_Client" target="1.5" />
       <module name="05_rest_server" target="1.8" />
       <module name="05_RESTAndFeign" target="1.7" />
+      <module name="05_Server" target="1.8" />
       <module name="06_Eureka" target="1.8" />
       <module name="06_EurekaServer" target="1.8" />
       <module name="06_FeignClient" target="1.8" />
       <module name="06_FeignOnEurekaTarget" target="1.8" />
       <module name="06_Provider" target="1.8" />
       <module name="07_Client" target="1.5" />
+      <module name="07_provider" target="1.8" />
       <module name="07_Provider" target="1.8" />
       <module name="08_Client" target="1.5" />
+      <module name="09_eureka" target="1.8" />
       <module name="09_Eureka" target="1.8" />
       <module name="09_Invoker1" target="1.8" />
       <module name="09_invoker1" target="1.8" />
@@ -168,15 +176,19 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="05_feign_server" options="-parameters" />
+      <module name="05_Client" options="" />
+      <module name="05_Server" options="-parameters" />
+      <module name="06_Eureka" options="-parameters" />
       <module name="06_FeignClient" options="-parameters" />
       <module name="06_Provider" options="-parameters" />
       <module name="07_Provider" options="-parameters" />
+      <module name="07_provider" options="-parameters" />
       <module name="09_Eureka" options="-parameters" />
       <module name="09_Invoker1" options="-parameters" />
       <module name="09_Invoker2" options="-parameters" />
       <module name="09_Provider1" options="-parameters" />
       <module name="09_Provider2" options="-parameters" />
+      <module name="09_eureka" options="-parameters" />
       <module name="09_invoker1" options="-parameters" />
       <module name="09_invoker2" options="-parameters" />
       <module name="09_provider1" options="-parameters" />

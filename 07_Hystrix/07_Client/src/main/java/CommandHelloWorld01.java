@@ -1,4 +1,3 @@
-import com.netflix.config.ConfigurationManager;
 import com.netflix.hystrix.HystrixCommandGroupKey;
 import com.netflix.hystrix.HystrixObservableCommand;
 import rx.Observable;
@@ -7,6 +6,9 @@ import rx.schedulers.Schedulers;
 
 import java.util.Iterator;
 
+/**
+ * @author C
+ */
 public class CommandHelloWorld01 extends HystrixObservableCommand<String> {
 
     private String name;
@@ -16,6 +18,7 @@ public class CommandHelloWorld01 extends HystrixObservableCommand<String> {
         this.name = name;
     }
 
+    @Override
     protected Observable<String> construct() {
         return Observable.create(new Observable.OnSubscribe<String>() {
             public void call(Subscriber<? super String> subscriber) {
@@ -34,8 +37,8 @@ public class CommandHelloWorld01 extends HystrixObservableCommand<String> {
     }
 
     public static void main(String[] args) {
-//        Observable<String> stringObservable = new CommandHelloWorld01("Asynchronous-hystrix").observe();
-        Observable<String> stringObservable = new CommandHelloWorld01("Asynchronous-hystrix").toObservable();
+        Observable<String> stringObservable = new CommandHelloWorld01("Asynchronous-hystrix").observe();
+//        Observable<String> stringObservable = new CommandHelloWorld01("Asynchronous-hystrix").toObservable();
         Iterator<String> stringIterator = stringObservable.toBlocking().getIterator();
         while (stringIterator.hasNext()) {
             System.out.print(stringIterator.next());

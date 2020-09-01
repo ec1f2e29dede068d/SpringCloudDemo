@@ -62,6 +62,15 @@
         <option value="$PROJECT_DIR$/14_Comprehensive/14_Eureka/pom.xml" />
         <option value="$PROJECT_DIR$/14_Comprehensive/14_Producer/pom.xml" />
         <option value="$PROJECT_DIR$/14_Comprehensive/14_Zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/05_RESTAndFeign/05_feign_server/pom.xml" />
+        <option value="$PROJECT_DIR$/05_RESTAndFeign/05_Client/pom.xml" />
+        <option value="$PROJECT_DIR$/05_RESTAndFeign/05_Server/pom.xml" />
+        <option value="$PROJECT_DIR$/06_FeignOnEureka/06_FeignClient/pom.xml" />
+        <option value="$PROJECT_DIR$/06_FeignOnEureka/06_Provider/pom.xml" />
+        <option value="$PROJECT_DIR$/06_FeignOnEureka/06_Eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/07_Hystrix/07_Client/pom.xml" />
+        <option value="$PROJECT_DIR$/08_HystrixProtect/08_Client/pom.xml" />
+        <option value="$PROJECT_DIR$/09_HystrixOnEureka/09_Eureka/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -8,6 +8,9 @@ import java.util.*;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
+/**
+ * @author C
+ */
 public class CollapseTest {
 
     public static void main(String[] args) {
@@ -61,6 +64,7 @@ public class CollapseTest {
             this.requests = requests;
         }
 
+        @Override
         protected Map<String, Person> run() throws Exception {
             System.out.println("收集参数后执行命令，参数数量：" + requests.size());
             List<String> personNames = new ArrayList<String>();
@@ -71,7 +75,7 @@ public class CollapseTest {
         }
 
         private Map<String, Person> callService(List<String> personNames) {
-            Map<String, Person> result = new HashMap<String, Person>();
+            Map<String, Person> result = new HashMap<String, Person>(8);
             for (String personName : personNames) {
                 Person person = new Person();
                 person.id = UUID.randomUUID().toString();
@@ -91,15 +95,18 @@ public class CollapseTest {
             this.personName = personName;
         }
 
+        @Override
         public String getRequestArgument() {
             return personName;
         }
 
+        @Override
         protected HystrixCommand<Map<String, Person>>
         createCommand(Collection<CollapsedRequest<Person, String>> requests) {
             return new CollapserCommand(requests);
         }
 
+        @Override
         protected void mapResponseToRequests(Map<String, Person> batchResponse
                 , Collection<CollapsedRequest<Person, String>> requests) {
             for (CollapsedRequest<Person, String> request : requests) {

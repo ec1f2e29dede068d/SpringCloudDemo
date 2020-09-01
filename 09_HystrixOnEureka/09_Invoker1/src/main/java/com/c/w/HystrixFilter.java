@@ -6,6 +6,9 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
+/**
+ * @author C
+ */
 @WebFilter(urlPatterns = "/*", filterName = "hystrixFilter")
 public class HystrixFilter implements Filter {
     @Override

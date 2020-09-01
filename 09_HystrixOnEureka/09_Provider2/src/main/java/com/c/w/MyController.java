@@ -3,6 +3,9 @@ package com.c.w;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @author C
+ */
 @RestController
 public class MyController {
 

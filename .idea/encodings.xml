@@ -5,26 +5,28 @@
     <file url="file://$PROJECT_DIR$/01_SimpleApplication/01_Invoker" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/01_SimpleApplication/01_Provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/01_SimpleApplication/01_Target" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/02_EurekaColony" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Invoker" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Provider" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/02_EurekaColony/EurekaColony/02_1_Target" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/02_EurekaColony/SelfHealthCheck/02_2_Provider" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/02_EurekaColony/SelfHealthCheck/02_2_Server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_EurekaCluster" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_EurekaCluster/EurekaCluster/02_1_Client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_EurekaCluster/EurekaCluster/02_1_Invoker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_EurekaCluster/EurekaCluster/02_1_Provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_EurekaCluster/EurekaCluster/02_1_Target" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_EurekaCluster/SelfHealthCheck/02_2_Provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_EurekaCluster/SelfHealthCheck/02_2_Server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/03_LoadBalance" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/03_LoadBalance/03_Client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/03_LoadBalance/03_Provider" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/04_LoadBalance" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/04_LoadBalance/04_Annotation" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/04_LoadBalance/04_Invoker" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/04_LoadBalance/04_Provider" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/04_LoadBalance/04_Server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_LoadBalanceOnEureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_LoadBalanceOnEureka/04_Annotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_LoadBalanceOnEureka/04_Invoker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_LoadBalanceOnEureka/04_Provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_LoadBalanceOnEureka/04_Server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/05_RESTAndFeign" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/05_RESTAndFeign/05_feign_client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/05_RESTAndFeign/05_feign_server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/05_RESTAndFeign/05_feign_server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_RESTAndFeign/05_Client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_RESTAndFeign/05_Client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_RESTAndFeign/05_Server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_RESTAndFeign/05_Server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06_FeignOnEureka/06_Eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06_FeignOnEureka/06_Eureka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06_FeignOnEureka/06_FeignClient" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06_FeignOnEureka/06_FeignClient/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06_FeignOnEureka/06_Provider" charset="UTF-8" />
